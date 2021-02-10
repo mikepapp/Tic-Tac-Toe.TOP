@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(14, 59%, 23%);
+    font-family: sans-serif ;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 400px;
+    height: 400px;
+    transform: translate(670px,120px);
+    margin: 30px;
+   
+    
+}
+
+.cell{
+    border: rgb(204, 17, 17) 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(53, 42, 42);
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+
+button{
+   transform: translate(860px , 210px);
+   width: 150px;
+   height: 30px;
+   border: rgb(146, 27, 27) solid 4px;
+   color: white;
+   background-color: black;
+
+}
+
+h2{
+    transform: translate(800px,200px);
+    font-size: 30px;
+   font-family: sans-serif;
+
+}
+
+
+.CPU {
+ height: 40px;
+ transform: translate(705px , 240px);
+}
+
+.player{
+    height: 40px;
+    transform: translate(550px,285px);
+}
